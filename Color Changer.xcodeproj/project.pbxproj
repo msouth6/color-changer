@@ -12,6 +12,7 @@
 		AA95B7421BB6C91A00D6555C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7401BB6C91A00D6555C /* Main.storyboard */; };
 		AA95B7441BB6C91A00D6555C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7431BB6C91A00D6555C /* Assets.xcassets */; };
 		AA95B7471BB6C91A00D6555C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7451BB6C91A00D6555C /* LaunchScreen.storyboard */; };
+		AA95B7511BB6C9AA00D6555C /* SpeedLog.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = AA95B7501BB6C9AA00D6555C /* SpeedLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		AA95B7431BB6C91A00D6555C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA95B7461BB6C91A00D6555C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA95B7481BB6C91A00D6555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA95B74E1BB6C97A00D6555C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../SpeedLog/README.md; sourceTree = "<group>"; };
+		AA95B7501BB6C9AA00D6555C /* SpeedLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeedLog.swift; path = ../SpeedLog/SpeedLog/SpeedLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA95B7511BB6C9AA00D6555C /* SpeedLog.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +42,8 @@
 		AA95B7301BB6C91900D6555C = {
 			isa = PBXGroup;
 			children = (
+				AA95B7501BB6C9AA00D6555C /* SpeedLog.swift */,
+				AA95B74E1BB6C97A00D6555C /* README.md */,
 				AA95B73B1BB6C91A00D6555C /* Color Changer */,
 				AA95B73A1BB6C91A00D6555C /* Products */,
 			);
